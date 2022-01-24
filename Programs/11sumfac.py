@@ -6,8 +6,12 @@
 # Use the same loop for both calculations
 
 n = 5
-
-# your code goes here
+sum = 0 # this is the running sum from 1...n
+fac = 1 # this is the factorial fo n
+for i in range (1, n+1):
+	sum += i
+	fac *= i
+print(n, sum, fac)
 
 """
 python3 11sumfac.py
